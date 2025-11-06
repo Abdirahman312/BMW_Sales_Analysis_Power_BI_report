@@ -1,4 +1,4 @@
-# 🚗 BMW Sales Analysis (2010–2024) <img src="https://github.com/user-attachments/assets/f5246ac1-21cd-4813-acc2-16cdfcfc5b1d" width="40px">
+# BMW Sales Analysis (2010–2024) <img src="https://github.com/user-attachments/assets/f5246ac1-21cd-4813-acc2-16cdfcfc5b1d" width="40px">
 This project analyzes BMW’s global sales data between 2010 and 2024 using **Power BI**.  
 It focuses on uncovering key sales insights, regional performance trends, and top-performing BMW models.
 
@@ -62,6 +62,7 @@ The dataset includes:
 
 ⭐ **Author:** _Abdirahman Ahmed_  
 🗓️ **Year:** 2025
+
 
 
 
