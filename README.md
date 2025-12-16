@@ -1,20 +1,20 @@
-# BMW Sales Analysis (2010–2024) <img src="https://github.com/user-attachments/assets/f5246ac1-21cd-4813-acc2-16cdfcfc5b1d" width="40px">
+# 🚗BMW Sales Analysis (2010–2024) <img src="https://github.com/user-attachments/assets/f5246ac1-21cd-4813-acc2-16cdfcfc5b1d" width="40px">
 This project analyzes BMW’s global sales data between 2010 and 2024 using **Power BI**.  
 It focuses on uncovering key sales insights, regional performance trends, and top-performing BMW models.
 
 ---
-## 📊 Overview
-This project provides insights into:
-- Total sales volume and yearly trends
-- Regional and fuel-type distribution
-- Top-selling BMW models
-- Price range and market segmentation
 
----
-## 🧰 Tools Used
-- **Power BI** – Data visualization and dashboard design  
-- **Power Query** – Data cleaning and transformation  
-- **CSV** – Source dataset  
+### 🧠 Business Questions
+
+Which regions generate the highest BMW sales?
+
+How have sales changed over time (2010–2024)?
+
+Which vehicle types and models perform best?
+
+How do sales differ across regions and fuel types?
+
+What key KPIs summarize overall performance?
 
 ---
 ## 🗂️ Dataset Overview
@@ -37,7 +37,27 @@ The dataset includes:
    - Standardize column names  
    - Format numerical and date fields  
 3. **Created calculated columns** for total revenue and growth rate  
-4. **Built relationships** between regional and model data tables  
+4. **Built relationships** between regional and model data tables
+
+---
+
+### 📁 Project Structure
+
+```
+BMW_Sales_Analysis_Power_BI_report/
+│
+├── data/
+│   └── BMW_sales_data.csv
+│
+├── dashboard/
+│   └── BMW_Sales_Analysis_Power_BI_report.pbix
+│
+├── images/
+│   ├── Sales_Overview_Screenshot.png
+│   └── Regional_&_Type_Analysis_Screenshot.png
+│
+└── README.md
+```
 
 ---
 # 📊 Dashboard Overview
@@ -50,18 +70,47 @@ The dataset includes:
 <img width="2767" height="1600" alt="BMW_Sales_Analysis_Power_BI_report-2" src="https://github.com/user-attachments/assets/4286713e-5c34-439c-88e7-e2f44c391f32" />
 
 ---
-## 📈 Key Insights
-- Europe and Asia dominate total BMW sales.  
-- Hybrid and Electric models are showing consistent growth.  
-- The 5 Series and X5 are consistently top sellers.  
+
+### 📌 Key Insights
+
+Europe is the highest-performing region in terms of total sales.
+
+SUVs and Sedans contribute the majority of BMW sales volume.
+
+Sales show a consistent upward trend between 2015 and 2022.
+
+Electric vehicles demonstrate strong growth in recent years.
+
+Performance models and SUVs generate the highest revenue.
 
 ---
-## 📂 Files
-| File | Description |
-|------|--------------|
-| `BMW_Sales_Analysis_2010_2024.pbix` | Power BI dashboard file |
-| `BMW_Sales_Analysis_2010_2024.pdf` | Exported portfolio version |
-| `/images/` |screenshots of your Power BI dashboard pages |
+
+### 📐 Key KPIs
+
+Total Sales Volume
+
+Total Revenue
+
+Average Vehicle Price
+
+Sales Growth Over Time
+
+---
+
+--- ▶️ How to Use This Project
+
+Download the dataset from the data/ folder
+
+Open the .pbix file from the dashboard/ folder using Power BI Desktop
+
+Use slicers to filter by year, region, and vehicle type
+
+---
+
+### 🏁 Conclusion
+
+This Power BI dashboard provides a clear overview of BMW’s sales performance across regions, time periods, and vehicle categories. It highlights key trends and supports strategic insights through interactive visualizations.
+
 
 ---
 📫 Connect with me on:  
@@ -71,6 +120,7 @@ The dataset includes:
 ---
 ⭐ **Author:** _Abdirahman Ahmed_  
 🗓️ **Year:** 2025
+
 
 
 
